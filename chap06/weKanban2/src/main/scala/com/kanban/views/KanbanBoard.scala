@@ -46,15 +46,17 @@ object KanbanBoard {
     <head>
   	  <meta charset="UTF-8" />
   	  <title>weKanban: A simple Kanban board</title>
-  	  <script type="text/javascript" src="/js/jquery-1.4.2.js"/>
-  	  <script type="text/javascript" src="/js/jquery.ui.core.js"/>
-  	  <script type="text/javascript" src="/js/jquery.ui.widget.js"/>
-  	  <script type="text/javascript" src="/js/jquery.ui.mouse.js"/>
-  	  <script type="text/javascript" src="/js/jquery.ui.draggable.js"/>
-  	  <script type="text/javascript" src="/js/jquery.ui.droppable.js"/>
-  	  <script type="text/javascript" src="/js/main.js"/>
-  	  <link type="text/css" href="/css/main.css" rel="stylesheet" />
-  	  <script type="text/javascript">
+  	  <script type="text/javascript" src="/js/jquery-1.4.2.js"></script>
+  	  <script type="text/javascript" src="/js/jquery.ui.core.js"></script>
+  	  <script type="text/javascript" src="/js/jquery.ui.widget.js"></script>
+  	  <script type="text/javascript" src="/js/jquery.ui.mouse.js"></script>
+  	  <script type="text/javascript" src="/js/jquery.ui.draggable.js"></script>
+  	  <script type="text/javascript" src="/js/jquery.ui.droppable.js"></script>
+  	  <script type="text/javascript" src="/js/main.js"></script>
+//  	  <link type="text/css" href="/css/main.css" rel="stylesheet" />
+      <link rel="stylesheet" href="/css/main.css" type="text/css" media="screen" charset="utf-8"/>
+
+      <script type="text/javascript">
         init()
   	  </script>
   </head>  
